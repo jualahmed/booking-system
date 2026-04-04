@@ -104,7 +104,7 @@ usersSchema.methods.getJWTToken = function () {
     { id: this._id },
     process.env.JWT_SECRET_KEY,
     {
-      expiresIn: Number(process.env.JWT_ACCESS_TOKEN_EXPIRES) // ✅ FIX
+      expiresIn: Number(process.env.JWT_ACCESS_TOKEN_EXPIRES)
     }
   );
 };
@@ -120,7 +120,7 @@ usersSchema.methods.getJWTRefreshToken = function () {
     { id: this._id },
     process.env.JWT_REFRESH_TOKEN_SECRET_KEY,
     {
-      expiresIn: Number(process.env.JWT_REFRESH_TOKEN_EXPIRES) // ✅ FIX
+      expiresIn: Number(process.env.JWT_REFRESH_TOKEN_EXPIRES) 
     }
   );
 };
