@@ -6,7 +6,7 @@ function defaultController(_req, res) {
     res.status(200).json(successResponse(
       0,
       'SUCCESS',
-      'Welcome to Hotel Room Booking System ~ Backed'
+      'Welcome to Hotel Room Booking System ~ api'
     ));
   } catch (error) {
     res.status(500).json(errorResponse(

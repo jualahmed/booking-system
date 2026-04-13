@@ -1,7 +1,7 @@
 {
   "name": "hotel-room-booking-system-api",
   "version": "v0.0.1",
-  "description": "Build an Hotel Room Booking System for node.js, express.js application",
+  "description": "Build an Hotel Room Booking System for node.js, express.js",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
